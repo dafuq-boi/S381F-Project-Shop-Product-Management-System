@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Product</title>
+</head>
+<body>
+    <h1>Delete Product</h1>
+    <p>Are you sure you want to delete the product: <%= product.Product_name %>? This action cannot be undone.</p>
+
+    <form action="/products/delete/<%= product.Product_id %>" method="post">
+        <button type="submit">Confirm Delete</button>
+    </form>
+    <a href="/products">Cancel</a>
+</body>
+</html>
