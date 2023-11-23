@@ -58,11 +58,9 @@ app.get('/login', (req, res) => {
     }
   });
 
-//app.get('/products*', (req, res) => {
-//  if (req.session.authenticated != true){
-//      res.redirect('/login');
-//      }
-//});
+app.get('/', (req, res) => {
+      res.redirect('/login');    
+});
 
 app.get('/logout', (req, res) => {
   req.session = null;
