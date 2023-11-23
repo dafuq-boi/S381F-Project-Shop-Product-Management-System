@@ -37,10 +37,6 @@ app.set('view engine', 'ejs');
 
 // User Authentication Routes
 
-app.get('/login', (req, res) => {
-    res.render('login', { message: '' }); // Pass an empty message or customize as needed
-  });
-
   app.post('/login', (req, res) => {
     const { username, password } = req.body;
 
