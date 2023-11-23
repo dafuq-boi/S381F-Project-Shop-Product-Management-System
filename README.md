@@ -12,7 +12,7 @@ Members:
 - Ng Cheuk Hei (13079894)
 
 ## Application Access
-https://s381f-project-shop-product-management.onrender.com
+https://s381f-project-shop-product-management.onrender.com/
 
 ## User Guide
 
